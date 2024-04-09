@@ -10,7 +10,7 @@ public class MainSopa {
         System.out.println("Bienvenidos a la sopa de letras");
         String cadena = Utils.LeerString("Introduce una cadena de 100 letras:", 100, 100);
         sopaDeLetras.crearSopadeLetras(cadena);
-
+        //prueba
         while (palabrasEncontradas < 5) {
             mostrarSopaDeLetras(sopaDeLetras.getSopa(),sopaDeLetras.getDescubiertas());
             String paraula = Utils.LeerString("Introduce la palabra a buscar:", 1, 10);
