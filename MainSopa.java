@@ -23,7 +23,7 @@ public class MainSopa {
         }
         System.out.println("Has encontrado todas las palabras.");
     }
-
+    //comentarioGuillem1
     private static void mostrarSopaDeLetras(char[][] sopa, boolean[][] descubiertas){
         System.out.println("Sopa de letras:");
         for (int i = 0; i < sopa.length; i++) {
