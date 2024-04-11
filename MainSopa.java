@@ -17,7 +17,7 @@ public class MainSopa {
             if (sopaDeLetras.buscarPalabra(paraula)) {
                 System.out.println("Palabra encontrada");
             } else {
-                System.out.println("Paraula no encontrada");
+                System.out.println("Palabra no encontrada");
             }
             palabrasEncontradas++;
         }
