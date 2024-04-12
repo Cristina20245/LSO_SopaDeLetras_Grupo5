@@ -1,3 +1,6 @@
+package test;
+
+import model.SopaDeLetras;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,11 +12,11 @@ class SopaDeLetrasTest {
 
     @BeforeEach
     void setUp() {
-        sopaDeLetras = new SopaDeLetras(8,8);
+        sopaDeLetras = new SopaDeLetras(10, 10);
     }
 
     @Test
     void comprobarPalabra() {
-        assertEquals(8,8);
+        assertEquals(10, 10);
     }
 }
