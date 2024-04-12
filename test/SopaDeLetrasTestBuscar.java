@@ -20,3 +20,5 @@ class SopaDeLetrasTestBuscar {
         assertNotNull(true);
     }
 }
+
+//test buscar palabra
