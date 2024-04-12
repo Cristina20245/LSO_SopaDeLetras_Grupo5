@@ -20,4 +20,4 @@ class SopaDeLetrasTestComprobar {
         assertEquals(10, 10);
     }
 }
-//Comentario
+//Test comprobar palabra
