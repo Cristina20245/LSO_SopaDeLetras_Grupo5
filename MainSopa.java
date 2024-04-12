@@ -21,7 +21,10 @@ public class MainSopa {
             }
             palabrasEncontradas++;
         }
-        System.out.println("Has encontrado todas las palabras.");
+       if (palabrasEncontradas == 5) {
+           mostrarSopaDeLetras(sopaDeLetras.getSopa(),sopaDeLetras.getDescubiertas());
+           System.out.println("Has encontrado todas las palabras.");
+       }
     }
     //comentarioGuillem1
     private static void mostrarSopaDeLetras(char[][] sopa, boolean[][] descubiertas){
