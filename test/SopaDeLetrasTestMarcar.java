@@ -1,9 +1,12 @@
+package test;
+
+import model.SopaDeLetras;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SopaDeLetrasTestBuscar {
+class SopaDeLetrasTestMarcar {
 
     SopaDeLetras sopaDeLetras;
 
@@ -13,7 +16,7 @@ class SopaDeLetrasTestBuscar {
     }
 
     @Test
-    void buscarPalabra() {
+    void marcarLetrasDescubiertas() {
         assertNotNull(true);
     }
 }

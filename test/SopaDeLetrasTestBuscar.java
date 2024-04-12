@@ -6,18 +6,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SopaDeLetrasTest {
+class SopaDeLetrasTestBuscar {
 
     SopaDeLetras sopaDeLetras;
 
     @BeforeEach
     void setUp() {
-        sopaDeLetras = new SopaDeLetras(10, 10);
+        sopaDeLetras = new SopaDeLetras(10,10);
     }
 
     @Test
-    void comprobarPalabra() {
-        assertEquals(10, 10);
+    void buscarPalabra() {
+        assertNotNull(true);
     }
 }
-//Comentario

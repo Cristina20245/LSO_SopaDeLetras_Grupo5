@@ -1,19 +1,23 @@
+package test;
+
+import model.SopaDeLetras;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SopaDeLetrasTest {
+class SopaDeLetrasTestComprobar {
 
     SopaDeLetras sopaDeLetras;
 
     @BeforeEach
     void setUp() {
-        sopaDeLetras = new SopaDeLetras(10,10);
+        sopaDeLetras = new SopaDeLetras(10, 10);
     }
 
     @Test
-    void crearSopadeLetras() {
-        assertEquals(10,10);
+    void comprobarPalabra() {
+        assertEquals(10, 10);
     }
 }
+//Comentario
